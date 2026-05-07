@@ -1,5 +1,5 @@
 # On ouvre les deux fichiers en même temps
-with open("level2_0_example.in", "r") as f_in, open("solution_level2_0_example.out", "w") as f_out:
+with open("level2_2_large.in", "r") as f_in, open("solution_level2_2_large.out", "w") as f_out:
     lines = f_in.readlines()
     
     n = int(lines[0].strip())
